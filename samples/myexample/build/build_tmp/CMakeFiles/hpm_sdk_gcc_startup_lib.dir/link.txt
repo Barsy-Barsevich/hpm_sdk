@@ -1,0 +1,1 @@
+/opt/riscv64-unknown-elf/bin/riscv64-unknown-elf-ar crD ../lib/libhpm_sdk_gcc_startup_lib.a CMakeFiles/hpm_sdk_gcc_startup_lib.dir/soc/HPM6700/HPM6750/toolchains/gcc/start.S.obj CMakeFiles/hpm_sdk_gcc_startup_lib.dir/soc/HPM6700/HPM6750/toolchains/gcc/initfini.c.obj

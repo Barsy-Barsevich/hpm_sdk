@@ -1,0 +1,1 @@
+/opt/riscv64-unknown-elf/bin/riscv64-unknown-elf-ar crD ../lib/libhpm_sdk_gcc_lib.a CMakeFiles/hpm_sdk_gcc_lib.dir/soc/HPM6700/HPM6750/toolchains/reset.c.obj CMakeFiles/hpm_sdk_gcc_lib.dir/soc/HPM6700/HPM6750/toolchains/trap.c.obj
