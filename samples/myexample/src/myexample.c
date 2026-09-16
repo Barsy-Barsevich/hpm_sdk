@@ -27,7 +27,7 @@ int main(void)
 //            u = '\n';
 //        }
 //        printf("%c", u);
-        printf("hello world\n");
+        board_print_clock_freq();
         board_hb_led_write(1);
         board_delay_ms(500);
         board_hb_led_write(0);

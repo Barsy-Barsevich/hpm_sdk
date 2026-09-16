@@ -228,7 +228,7 @@ void board_ungate_mchtmr_at_lp_mode(void)
 
 void board_init_hb_led(void)
 {
-    init_hb_led_pin();
+    //init_hb_led_pin();
     // HPM_IOC->PAD[IOC_PAD_PB18].PAD_CTL = IOC_PAD_PAD_CTL_PE_SET(1) | IOC_PAD_PAD_CTL_PS_SET(1);
     gpio_set_pin_output(BOARD_HB_LED_GPIO_CTRL, BOARD_HB_LED_GPIO_INDEX, BOARD_HB_LED_GPIO_PIN);
 }

@@ -25,7 +25,7 @@
 #include "hpm_enet_phy_port.h"
 #endif
 
-#define BOARD_NAME          "hpm6750evkmini"
+#define BOARD_NAME          "KA2"
 #define BOARD_UF2_SIGNATURE (0x0A4D5048UL)
 #define BOARD_DFU_SIGNATURE (0x48504D21UL)
 
@@ -640,6 +640,7 @@ extern "C" {
 
 typedef void (*board_timer_cb)(void);
 
+void board_print_clock_freq(void);
 void board_init(void);
 void board_init_console(void);
 
