@@ -137,12 +137,12 @@ __attribute__((weak)) void c_startup(void)
     section_copy(__fast_ram_init_start__, __fast_ram_init_end__, __fast_ram_init_load_addr__);
 }
 
-__attribute__((weak)) int main(void)
-{
-    while (1) {
-        ;
-    }
-}
+// __attribute__((weak)) int main(void)
+// {
+//     while (1) {
+//         ;
+//     }
+// }
 
 __attribute__((weak)) void reset_handler(void)
 {
