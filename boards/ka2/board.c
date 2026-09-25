@@ -483,7 +483,7 @@ void board_init_i2c(I2C_Type *ptr)
     uint32_t freq;
 
     freq = board_init_i2c_clock(ptr);
-    board_i2c_bus_clear(ptr);
+    //board_i2c_bus_clear(ptr);
     init_i2c_pins(ptr);
     config.i2c_mode = i2c_mode_normal;
     config.is_10bit_addressing = false;
